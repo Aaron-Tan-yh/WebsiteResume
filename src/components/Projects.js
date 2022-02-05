@@ -1,4 +1,4 @@
-import { CodeIcon } from "@heroicons/react/solid";
+import { DocumentReportIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
@@ -7,20 +7,12 @@ export default function Projects() {
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
+          <DocumentReportIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Studies that I have done
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            A series of projects that I have built using primarily C++ and Python. I am currently learning C# to upgrade myself.
-          </p>
-          <br/>
-          <p>
-            Other than the programming languages, I have some knowledge in workflow engine softwares like Apache Airflow to automate and monitor data pipelines. I am also experienced with using messaging broker platforms like RabbitMQ to set up, publish and consume messages from topic exchanges for different projects.
-          </p>
-          <br/>
-          <p>
-            If you are unable to see the projects, please get in touch with me through my <a href="mailto:alan.leeyungchong@gmail.com" className="text-white body-font">gmail</a>.
+            Here is a series of pitch deck that I have put together about ESG investments.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

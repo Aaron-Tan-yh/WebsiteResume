@@ -1,19 +1,19 @@
 export const projects = [
   {
-    title: "Derivative Pricer",
-    subtitle: "C++ and Qt6 Framework",
+    title: "European Union - Sustainable Finance Disclosure Regulation",
+    subtitle: "Pitch Deck",
     description:
-      "Interface using C++ Qt6 framework to compute various derivative's arbitrage-free price using Monte Carlos simulation for Vanilla and Exotic Option and risk-neutral Binary Tree Pricing for American Option. The project focuses on good programming practises such as packaging reusable components like generation of random numbers and parameters integral. Abstract classes have been created to allow easy extension to other options if its payoff may be define. Vanilla Options, Simple Exotic Option and American Options can be valued.",
-    image: "./optionPricer.gif",
-    link: "https://github.com/alanriya/OptionPricer", 
+      "How SFDR is a key pillar of EU sustainable finance action plan and how asset manager will be affected. It also shows the SFDR implmentation timeline for asset manager.",
+    image: "./project1.gif",
+    link: "https://github.com/Aaron-Tan-yh", 
   },
   {
-    title: "Market Data DartBoard",
-    subtitle: "Python 3.9 and RabbitMQ",
+    title: "Why invest in ESG?",
+    subtitle: "Pitch Deck",
     description:
-      "This project simulates the how market data flows from exchange to the client. A server will read a dummmy file that contains market data in their native protocol and sends it through a TCP connection through RabbitMQ 's topic exchange. Another client application will receive the data and trys to build the book, the book state is then published over the another TCP connection to any client subscribing to the market data to display a dart board. This project still lacks a frontend UI that is fast enough to handle large volume of data and rendering them at the same time.",
-    image: "./marketParser.gif",
-    link: "https://github.com/alanriya/dataTransfer",
+      "Investing in ESG for improved risk-adjusted return, repurposing the economy and how changing regultions puts pressure on developing ESG policies.",
+    image: "./project2.gif",
+    link: "https://github.com/Aaron-Tan-yh",
   }
 ];
 
@@ -49,7 +49,7 @@ export const backgrounds = [
     cardTitle: `ING Bank N.V., Analyst, Sustainable Finance APAC`,
     cardSubtitle:
       "Internally rotated to ING's sustainable finance department",
-    title: "May May 2021 - Present",
+    title: "May 2021 - Present",
     cardDetailedText: ["- Experienced in originating, structuring, and executing Sustainable Finance deals, including GSS and Sustainability-Linked bonds/loans.", "- Excels in analysing companies’ ESG strategies, identifying gaps, and proposing advisory solutions to align with investors’ expecta1tions.", "- Well-versed with various global and regional sustainability standards, benchmarks, and Second Party Opinion providers.", "- Conducted in-depth sector knowledge from the sustainability perspective on the Energy, Transportation, Metals & Mining, Agriculture, Circular Economy, Telecommunications and Infrastructure sectors."]
   }
 ];

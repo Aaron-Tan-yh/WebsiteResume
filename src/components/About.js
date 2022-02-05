@@ -14,7 +14,7 @@ export default function About() {
             I am a sustainable finance professional and innovation enthusiast.
             <br className="hidden lg:inline-block" />
             <br className="hidden lg:inline-block" />
-            I am passionately curious, impact driven and an open-minded team player.
+            I am passionately curious, impact-driven and an open-minded team player.
           </h1>
           <p className="mb-8 leading-relaxed">
             
@@ -36,7 +36,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./aaron_profile.png"
+            src="./profile.png"
           />
         </div>
       </div>
